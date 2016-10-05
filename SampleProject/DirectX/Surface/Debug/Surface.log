@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\ngochanh\onedrive\development\project\directx\surface\source.cpp(146): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Surface.vcxproj -> C:\Users\NgocHanh\OneDrive\Development\Project\DirectX\Debug\Surface.exe
+  Surface.vcxproj -> C:\Users\NgocHanh\OneDrive\Development\Project\DirectX\Debug\Surface.pdb (Full PDB)

@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Worlds">
+      <UniqueIdentifier>{92b70f15-a499-4170-b658-c3412fecd528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Worlds\QuadTree">
+      <UniqueIdentifier>{a3ff88be-c822-4a6a-b9a2-31ac2a772b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{d39e253f-56f9-41ec-a316-485574d4157d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\KeyBoard">
+      <UniqueIdentifier>{031bf6a2-625b-408f-8c91-11046414a1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sounds">
+      <UniqueIdentifier>{c19482a3-3e74-4f75-95a1-785633a12faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Camera">
+      <UniqueIdentifier>{79cb44e9-9bf3-41f8-a3f7-f532e52c56a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Windows">
+      <UniqueIdentifier>{c3190a2e-67ff-431b-9724-b5bdb1d8ff63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Worlds\Collision">
+      <UniqueIdentifier>{abaf45e9-f69b-4381-9546-4b4e365c5f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects">
+      <UniqueIdentifier>{7757658d-776d-46c3-9f19-399368a5f66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies">
+      <UniqueIdentifier>{9fef7b13-c0af-426a-af43-62513119278e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\Bat">
+      <UniqueIdentifier>{34165e80-5a49-4f22-8d41-780b15e51807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\BoneDragon">
+      <UniqueIdentifier>{be9f0e24-f8d3-418a-ba54-ae8fc5a55ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\BonePillar">
+      <UniqueIdentifier>{0319ad3f-dd2a-4def-9786-4e57471a8a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\Eagle">
+      <UniqueIdentifier>{0f0e3a59-49fe-4af1-9c96-6f9557ad0431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\Fleaman">
+      <UniqueIdentifier>{0013ec8c-2889-40bf-a79a-d5cceec75a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\Ghost">
+      <UniqueIdentifier>{dde58b8f-fb04-43fb-9804-f85a7b9806d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\MedusaHead">
+      <UniqueIdentifier>{152df8bd-44db-40ea-9aac-27c51ba3d128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\Merman">
+      <UniqueIdentifier>{1fa47988-bf5e-4cac-8db2-6d1714370dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\Panther">
+      <UniqueIdentifier>{f757acd6-3e8f-4571-9a30-41eff871a6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\Raven">
+      <UniqueIdentifier>{64621881-8cbd-4573-95c4-227a5e193826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\Red Skeleton">
+      <UniqueIdentifier>{993ef8c9-aea7-477b-b16c-60f2d49ebebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\Skeleton">
+      <UniqueIdentifier>{8313debc-9c04-4f2f-b498-5651ed81b37a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\SpearGuard">
+      <UniqueIdentifier>{fabd8f8f-9b55-4353-a115-5bea8e56c356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\VampireBat">
+      <UniqueIdentifier>{b6154522-d556-4deb-b660-92d5e4fe1717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\Zombie">
+      <UniqueIdentifier>{b2d6ec43-c33c-4fa9-b429-e35b53b89eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Enemies\AxeKnight">
+      <UniqueIdentifier>{e4cddefa-4f84-453c-81e5-4ea874174710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Characters">
+      <UniqueIdentifier>{16e31ad5-704f-49c4-9a9f-4e4ab71e68cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Characters\SimonBelmont">
+      <UniqueIdentifier>{f1918cbc-f673-4ca3-b461-20bb7f6c16c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Bosses">
+      <UniqueIdentifier>{ac51354a-caee-4972-9b9d-2539cff11cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Bosses\VampireBat">
+      <UniqueIdentifier>{811cedc2-62cf-4c8f-ac37-a09e1bbb8555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Bosses\Medusa">
+      <UniqueIdentifier>{b0dfe6f0-31dc-4cad-bc93-0ef01015ca55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Bosses\Mummies">
+      <UniqueIdentifier>{ef14a8c6-5a23-4c99-8487-a6d09b293fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Bosses\Frankenstein">
+      <UniqueIdentifier>{9fba950b-55df-44ac-92c1-bad5e48eb2af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Bosses\Death">
+      <UniqueIdentifier>{0fd2ab62-91e2-428b-99c5-225186d1fdcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Bosses\Dracula">
+      <UniqueIdentifier>{c7e9c612-df9e-437b-b8bb-a15b609642df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items">
+      <UniqueIdentifier>{d4632e80-a4b8-4585-89ed-f5be13e7e166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\MorningStar">
+      <UniqueIdentifier>{52b2b1a1-67eb-47af-b1ae-6296c5a9d871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\SmallHeart">
+      <UniqueIdentifier>{b7b4e08d-7ece-4f97-bd1a-078ed4f7779e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\BigHeart">
+      <UniqueIdentifier>{cca13a46-b69e-4dd7-842a-eddbcd16f9bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\MoneyBag">
+      <UniqueIdentifier>{f2af5abe-8fa4-48bb-b0bf-0a01ddbaa85c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\Roast">
+      <UniqueIdentifier>{5c25b481-deab-4ea5-8066-b54b0a6e279e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\Rosary">
+      <UniqueIdentifier>{0bccff15-fc03-4ddf-a93e-f76d6eae22dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\InvincibilityPotion">
+      <UniqueIdentifier>{e402cc83-93cf-430b-889e-067883204cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\Crown">
+      <UniqueIdentifier>{ed6337ab-fa95-42a1-a9da-76cbe666a188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\TreasureChest">
+      <UniqueIdentifier>{e49d0bae-a03c-4a23-95e9-cb4db5fa4409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\MoauiHead">
+      <UniqueIdentifier>{daddc91f-27cd-483b-9b88-cf8714cddb04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\DoubleShot">
+      <UniqueIdentifier>{4e1da9df-db97-4522-aeb7-f757b00a7118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\TripleShot">
+      <UniqueIdentifier>{68fa361e-3203-4288-9df4-10ab858efbcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\1-up">
+      <UniqueIdentifier>{eadffe42-47ca-43c7-8139-bf2015d2ebbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Items\Spirit Ball">
+      <UniqueIdentifier>{5e5a54a6-c4e7-42df-b269-8ee4f291506f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Maps">
+      <UniqueIdentifier>{7df07341-0904-48cc-bced-1e98c8e64387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Maps\Map">
+      <UniqueIdentifier>{e7bad249-01ac-49cd-a948-cdd1e84a8024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Maps\MapResource">
+      <UniqueIdentifier>{f2e24686-475a-4f78-92f4-e9ef903ba607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\SubWeapons">
+      <UniqueIdentifier>{212fecb7-92af-4b18-a80a-6e7ad4d2a9d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\SubWeapons\Axe">
+      <UniqueIdentifier>{8526a94f-0f4d-492f-a4c8-052d556ab2d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\SubWeapons\Cross">
+      <UniqueIdentifier>{2707615c-7596-4b47-bd46-e9a2b5f4dfd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\SubWeapons\HolyWater">
+      <UniqueIdentifier>{b19c689e-ab61-4589-b28a-67a55ebb72e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\SubWeapons\Knife">
+      <UniqueIdentifier>{b40eac85-0da1-426c-9c8d-af7f1fff90ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\SubWeapons\StopWatch">
+      <UniqueIdentifier>{3e8e1ef5-b6d0-4ddd-8962-e6216904bcca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Weapons">
+      <UniqueIdentifier>{52a31c6a-0637-4310-814e-d3534c40daf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Weapons\VampireKiller">
+      <UniqueIdentifier>{48cf8b53-79f6-45a3-8219-2270a98dfcc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Weapons\ChainWhip">
+      <UniqueIdentifier>{f683f499-9d4c-44f4-8b43-30f14ed9ddcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Weapons\MorningStar">
+      <UniqueIdentifier>{69ea766d-09ba-472d-9276-a2317f323ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Objects">
+      <UniqueIdentifier>{fab6c3ff-b600-4204-a50d-b823c0307aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Objects\Sprites">
+      <UniqueIdentifier>{ec16bfb1-7ce5-49ae-9bbf-1933e225286f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Objects\Points">
+      <UniqueIdentifier>{305e88a3-ba75-446b-adc9-75b3cd2efe53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Objects\Boxs">
+      <UniqueIdentifier>{1d834882-e41d-4b89-96a5-1132b12f16d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\Objects\BaseObjects">
+      <UniqueIdentifier>{911778b3-324b-40ea-9b71-6d3cebc2a18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\FlatForms">
+      <UniqueIdentifier>{4f2c7a3e-6da5-4b63-8dcb-2157537e7581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\FlatForms\FlatForm">
+      <UniqueIdentifier>{40c86474-86bf-4a3d-b50a-88fcdfd67491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\FlatForms\Stairs">
+      <UniqueIdentifier>{b6b19eed-bae8-45ee-b36e-40beccb45f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObjects\FlatForms\Water">
+      <UniqueIdentifier>{1a2b7a91-d976-4d2e-8871-a9cabcc02085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Initializes">
+      <UniqueIdentifier>{51cbdf93-04ee-449a-a144-29c40edf02f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Initializes\InitWindow">
+      <UniqueIdentifier>{24cc6a99-d502-41e6-b508-a8740e090db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Initializes\InitGame">
+      <UniqueIdentifier>{ab14d8c7-bce8-487b-8e52-8a6c3310fbe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Initializes\InitSound">
+      <UniqueIdentifier>{3374aed0-2039-4210-b382-a8a8f3f88761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Initializes\InitInput">
+      <UniqueIdentifier>{45491624-4ba0-4252-9a2f-04c16bc16940}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{de5ddaf6-ad9c-41af-b7ad-5b63f91beeee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Fronts">
+      <UniqueIdentifier>{5dddabe1-cf0f-45f8-baff-f25c05d19c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Fronts\FrontResources">
+      <UniqueIdentifier>{640f68fb-69bc-46b9-ba27-5662e9800fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Define">
+      <UniqueIdentifier>{ba511a69-e73c-435c-ad94-24c5dcac8fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\TitleScreen">
+      <UniqueIdentifier>{d827b447-3670-4dde-9b7e-bc918f15155f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Introduce">
+      <UniqueIdentifier>{64ea08b8-4262-485c-9040-e340f077a7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\LoadReources">
+      <UniqueIdentifier>{40601353-93e5-48f4-a086-f6407ea574d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\ReadFiles">
+      <UniqueIdentifier>{e76f09a0-3380-40b3-b1d2-1b51c820691c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\EndGame">
+      <UniqueIdentifier>{5d5f6281-3832-455d-899d-f244862b5799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Generic">
+      <UniqueIdentifier>{1b4308c8-e62c-4527-9fa3-481923c0086e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Logger">
+      <UniqueIdentifier>{2dbfc49e-0bab-4a65-b5cb-9cc0995c391f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Resource">
+      <UniqueIdentifier>{8b875714-c49e-488c-b6a5-31a7d22aec7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseSubWeapon.cpp">
+      <Filter>GameObjects\SubWeapons</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseWeapon.cpp">
+      <Filter>GameObjects\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseItem.cpp">
+      <Filter>GameObjects\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEnemy.cpp">
+      <Filter>GameObjects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseBoss.cpp">
+      <Filter>GameObjects\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalDefine.cpp">
+      <Filter>Utility\Define</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseFlatForm.cpp">
+      <Filter>GameObjects\FlatForms</Filter>
+    </ClCompile>
+    <ClCompile Include="Front.cpp">
+      <Filter>Utility\Fronts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseSubWeapon.h">
+      <Filter>GameObjects\SubWeapons</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWeapon.h">
+      <Filter>GameObjects\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseItem.h">
+      <Filter>GameObjects\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEnemy.h">
+      <Filter>GameObjects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseBoss.h">
+      <Filter>GameObjects\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalDefine.h">
+      <Filter>Utility\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseFlatForm.h">
+      <Filter>GameObjects\FlatForms</Filter>
+    </ClInclude>
+    <ClInclude Include="Front.h">
+      <Filter>Utility\Fronts</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

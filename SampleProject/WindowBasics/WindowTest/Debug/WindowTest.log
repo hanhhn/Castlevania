@@ -1,0 +1,7 @@
+﻿  Source.cpp
+c:\users\ngochanh\onedrive\development\project\windowbasics\windowtest\source.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\ngochanh\onedrive\development\project\windowbasics\windowtest\source.cpp(19): warning C4566: character represented by universal-character-name '\u1ECD' cannot be represented in the current code page (1252)
+c:\users\ngochanh\onedrive\development\project\windowbasics\windowtest\source.cpp(19): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+c:\users\ngochanh\onedrive\development\project\windowbasics\windowtest\source.cpp(111): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  WindowTest.vcxproj -> C:\Users\NgocHanh\OneDrive\Development\Project\WindowBasics\Debug\WindowTest.exe
+  WindowTest.vcxproj -> C:\Users\NgocHanh\OneDrive\Development\Project\WindowBasics\Debug\WindowTest.pdb (Full PDB)
