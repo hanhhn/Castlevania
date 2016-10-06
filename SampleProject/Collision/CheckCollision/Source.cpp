@@ -249,7 +249,7 @@ int GameInit(HWND hwnd)
 	box = LoadTexture("box.png", D3DCOLOR_XRGB(0, 0, 0));
 
 	groundRECT->CreateRectangle(new Box(new Point(SCREEN_WIDTH / 2, 200), 400, 50), NULL);
-	boxRECT->CreateRectangle(new Box(new Point(100, 0), 100, 100), NULL);
+	boxRECT->CreateRectangle(new Box(new Point(150, 250), 100, 100), NULL);
 	
 
 	//return okay

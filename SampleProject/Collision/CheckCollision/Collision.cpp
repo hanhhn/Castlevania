@@ -36,29 +36,28 @@ Collision::DIRECTION Collision::CheckCollision(MyRectangle *dynamic, MyRectangle
 
 	int r = dynamicRight - statisLeft;
 	int l = statisRight - dynamicLeft;
-	int b = statisTop - dynamicBottom;
 	int t = dynamicTop - statisBottom;
+	int b = statisTop - dynamicBottom;
 
 	//va cham va xac dinh huong
-	if (r < l && r < t && r < b)
+	if (r <= l && r <= b && r <= t)
 	{
 		Direction = Collision::Right;
 		return	Collision::Right;
 	}
 		
-	if (l < r && l < t && l < b)
+	if (l <= r && l <= b && l <= t)
 	{
 		Direction = Collision::Left;
 		return Collision::Left;
 	}
 		
-	if (t < r && t < l && t < b)
+	if (t <= r && t <= l && t <= b)
 	{ 
 		Direction = Collision::Top;
 		return Collision::Top;
 	}
-		return Collision::Top;
-	if (b < r && b < l && b < t)
+	if (b <= r && b <= l && b <= t)
 	{
 		Direction = Collision::Bottom;
 		return Collision::Bottom;
