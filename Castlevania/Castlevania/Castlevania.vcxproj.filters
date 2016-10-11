@@ -280,6 +280,12 @@
     <Filter Include="FrameWork\Resource">
       <UniqueIdentifier>{8b875714-c49e-488c-b6a5-31a7d22aec7f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Utility\Texts">
+      <UniqueIdentifier>{0bc878c5-6614-4463-b983-14f11c4a62eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Initializes\InitDirectX">
+      <UniqueIdentifier>{56ef999a-f68b-4cfc-83f5-6c828dd3f851}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -303,14 +309,56 @@
     <ClCompile Include="World.cpp">
       <Filter>Worlds</Filter>
     </ClCompile>
-    <ClCompile Include="GlobalDefine.cpp">
-      <Filter>Utility\Define</Filter>
-    </ClCompile>
     <ClCompile Include="BaseFlatForm.cpp">
       <Filter>GameObjects\FlatForms</Filter>
     </ClCompile>
     <ClCompile Include="Front.cpp">
       <Filter>Utility\Fronts</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Worlds\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>GameObjects\Objects\Points</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>GameObjects\Objects\Boxs</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>GameObjects\Objects\BaseObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Initializes\InitGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>GameObjects\Objects\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Utility\Texts</Filter>
+    </ClCompile>
+    <ClCompile Include="Simon.cpp">
+      <Filter>GameObjects\Characters\SimonBelmont</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>FrameWork\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPort.cpp">
+      <Filter>FrameWork\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Initializes\InitInput</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Initializes\InitSound</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Initializes\InitWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Initializes\InitDirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalDefine.cpp">
+      <Filter>Utility\Define</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -340,6 +388,48 @@
     </ClInclude>
     <ClInclude Include="Front.h">
       <Filter>Utility\Fronts</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Worlds\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>GameObjects\Objects\Points</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>GameObjects\Objects\Boxs</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>GameObjects\Objects\BaseObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Initializes\InitGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>GameObjects\Objects\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>Utility\Texts</Filter>
+    </ClInclude>
+    <ClInclude Include="Simon.h">
+      <Filter>GameObjects\Characters\SimonBelmont</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>FrameWork\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPort.h">
+      <Filter>FrameWork\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Initializes\InitInput</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Initializes\InitSound</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Initializes\InitWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>Initializes\InitDirectX</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

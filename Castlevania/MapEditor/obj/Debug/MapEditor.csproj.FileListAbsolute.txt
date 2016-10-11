@@ -1,0 +1,7 @@
+C:\Users\hngochanh\OneDrive\Development\Game-Development-With-DirectX\Castlevania\MapEditor\bin\Debug\MapEditor.exe.config
+C:\Users\hngochanh\OneDrive\Development\Game-Development-With-DirectX\Castlevania\MapEditor\bin\Debug\MapEditor.exe
+C:\Users\hngochanh\OneDrive\Development\Game-Development-With-DirectX\Castlevania\MapEditor\bin\Debug\MapEditor.pdb
+C:\Users\hngochanh\OneDrive\Development\Game-Development-With-DirectX\Castlevania\MapEditor\obj\Debug\MapEditor.Properties.Resources.resources
+C:\Users\hngochanh\OneDrive\Development\Game-Development-With-DirectX\Castlevania\MapEditor\obj\Debug\MapEditor.csproj.GenerateResource.Cache
+C:\Users\hngochanh\OneDrive\Development\Game-Development-With-DirectX\Castlevania\MapEditor\obj\Debug\MapEditor.exe
+C:\Users\hngochanh\OneDrive\Development\Game-Development-With-DirectX\Castlevania\MapEditor\obj\Debug\MapEditor.pdb

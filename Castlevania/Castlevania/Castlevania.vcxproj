@@ -153,11 +153,25 @@
     <ClCompile Include="BaseEnemy.cpp" />
     <ClCompile Include="BaseFlatForm.cpp" />
     <ClCompile Include="BaseItem.cpp" />
+    <ClCompile Include="BaseObject.cpp" />
     <ClCompile Include="BaseSubWeapon.cpp" />
     <ClCompile Include="BaseWeapon.cpp" />
+    <ClCompile Include="Box.cpp" />
+    <ClCompile Include="Buffer.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="DirectX.cpp" />
     <ClCompile Include="Front.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="GlobalDefine.cpp" />
+    <ClCompile Include="Input.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Simon.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="ViewPort.cpp" />
+    <ClCompile Include="Window.cpp" />
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -165,10 +179,24 @@
     <ClInclude Include="BaseEnemy.h" />
     <ClInclude Include="BaseFlatForm.h" />
     <ClInclude Include="BaseItem.h" />
+    <ClInclude Include="BaseObject.h" />
     <ClInclude Include="BaseSubWeapon.h" />
     <ClInclude Include="BaseWeapon.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="Buffer.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="DirectX.h" />
     <ClInclude Include="Front.h" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="GlobalDefine.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Simon.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="ViewPort.h" />
+    <ClInclude Include="Window.h" />
     <ClInclude Include="World.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
