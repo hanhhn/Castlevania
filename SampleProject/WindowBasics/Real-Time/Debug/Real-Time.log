@@ -1,4 +1,0 @@
-﻿  Source.cpp
-c:\users\ngochanh\onedrive\development\project\windowbasics\real-time\source.cpp(122): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Real-Time.vcxproj -> C:\Users\NgocHanh\OneDrive\Development\Project\WindowBasics\Debug\Real-Time.exe
-  Real-Time.vcxproj -> C:\Users\NgocHanh\OneDrive\Development\Project\WindowBasics\Debug\Real-Time.pdb (Full PDB)

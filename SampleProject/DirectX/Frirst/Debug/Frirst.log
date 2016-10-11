@@ -1,5 +1,0 @@
-﻿  Source.cpp
-c:\users\ngochanh\onedrive\development\project\directx\frirst\source.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-c:\users\ngochanh\onedrive\development\project\directx\frirst\source.cpp(156): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Frirst.vcxproj -> C:\Users\NgocHanh\OneDrive\Development\Project\DirectX\Debug\Frirst.exe
-  Frirst.vcxproj -> C:\Users\NgocHanh\OneDrive\Development\Project\DirectX\Debug\Frirst.pdb (Full PDB)
